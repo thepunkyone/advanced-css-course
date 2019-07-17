@@ -15,7 +15,9 @@
     <body>
         <div class="navigation">
             <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
-            <label for="navi-toggle" class="navigation__button">MENU</label>
+            <label for="navi-toggle" class="navigation__button">
+                <span class="navigation__icon">&nbsp;</span>
+            </label>
             <div class="navigation__background">&nbsp;</div>
             <nav class="navigation__nav">
                 <ul class="navigation__list">
@@ -383,9 +385,11 @@
                 </div>
             </section>
         </main>
-        <footer class="footer">
-            <div class="footer__logo">
-                <img src="img/logo-green-2x.png" alt="Full logo" class="footer__logo">
+        <footer class="footer"> 
+            <div class="footer__logo-box">
+                <div class="footer__logo"></div>
+                    <img src="img/logo-green-2x.png" alt="Full logo" class="footer__logo">
+                </div>
             </div>
             <div class="row">
                 <div class="col-1-of-2">
@@ -410,6 +414,27 @@
                 </div>
             </div>
         </footer>
+
+        <div class="popup">
+            <div class="popup__content">
+                <div class="popup__left">
+                    <img src="img/nat-8.jpg" alt="Tour photo" class="popup__img">
+                    <img src="img/nat-9.jpg" alt="Tour photo" class="popup__img">
+                </div>
+                <div class="popup__right">
+                    <h2 class="heading-secondary u-margin-bottom-small">Start booking now</h2>
+                    <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; Please read these terms before booking</h3>
+                    <p class="popup__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Turpis massa sed elementum tempus. Ullamcorper velit sed ullamcorper morbi tincidunt. Amet porttitor eget dolor
+                        morbi non arcu. Amet nulla facilisi morbi tempus. Fames ac turpis egestas sed. Massa sapien faucibus et molestie. Nec
+                        feugiat nisl pretium fusce. Est ultricies integer quis auctor elit. Phasellus vestibulum lorem sed risus ultricies
+                        tristique nulla.
+                    </p>
+                    <a href="#" class="btn btn--green">Book now</a>
+                </div>
+            </div>
+        </div>
     <!---
         <section class="grid-test">
             <div class="row">
