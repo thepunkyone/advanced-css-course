@@ -14,6 +14,7 @@
     width: 100%;
     border-radius: $radius-small;
     box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     overflow: hidden;
     transition: all .8s ease;
